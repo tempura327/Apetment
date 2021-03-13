@@ -1,0 +1,350 @@
+@import url('reset.css');
+
+.menu .pet_goods a{
+	color: #F7E8A9;
+	font-weight: bold;
+}
+/* ---------------hot----------------------- */
+.pet_supply{
+	padding-top: 106.34px;
+
+	width: 62.5vw;
+	margin: 0 auto 130px;
+
+	/* outline: 3px solid peru; */
+}
+
+.pet_supply h1{
+  font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 60px;
+}
+
+.cat_hot{
+	padding-top: 30px;
+}
+
+.cat_hot ul, .dog_hot ul{
+	height: 265px;
+	background-image: url(../img/other/shelf.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 105%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	/* outline: 2px solid purple; */
+}
+
+.cat_hot li, .dog_hot li{
+	width: 150px;
+	height: 150px;
+	/* outline: 3px solid orange; */
+	
+	position: relative;
+}
+
+.cat_hot img, .dog_hot img{
+	width: 160px;
+}
+
+.pet_supply .hot_tag{
+	position: absolute;
+	/* top: -10px; */
+	top: -0.52vw;
+  /* left: 260px; */
+  left: 0;
+  /* width: 130px; */
+	/* width: 6.77vw; */
+	width: 90px;
+}
+
+/* .cat_hot ul .cat_junkfood{
+	position: relative;
+} */
+
+.cat_hot ul .mouthing_cat{
+	/* position: absolute;
+	top: -38px;
+	left: 560px;
+	width: 100px; */
+	display: none;
+}
+
+.pet_supply .medal{
+	width: 50%;
+}
+
+.pet_supply .No1, .pet_supply .No2, .pet_supply .No3{
+	position: absolute;
+	top: 140px;
+  left: 80px;
+}
+
+/* ------------------cat_supply------------------- */
+.cat_supply ul, .cat_supply2 ul{
+  	height: 265px;
+  	background-image: url(../img/other/shelf.png);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: 105%;
+  	display: flex;
+	justify-content: center;
+  	/* outline: 3px solid blue; */
+}
+
+.cat_supply li{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  /* outline: 3px solid greenyellow; */
+}
+
+.cat_supply2 li{
+  width: 196px;
+  height: 160px;
+  display: flex;
+  /* outline: 3px solid green; */
+}
+
+.cat_supply p{
+  font-size: 14px;
+  background-image: url(../img/others/card-small.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center bottom;
+  padding-top: 84px;
+  width: 60px;
+  /* outline: 2px solid red; */
+}
+
+.cat_supply2 p{
+  font-size: 14px;
+  background-image: url(../img/others/card-big3.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center bottom;
+  padding-top: 87px;
+  width: 90px;
+  /* outline: 2px solid pink; */
+}
+
+.cat_supply2 .p1, .cat_supply2 .p2{
+  padding-top: 77px;
+}
+
+.cat_supply img{
+  width: 150px;
+}
+
+.cat_supply2 img{
+	padding-top: 20px;
+  width: 140px;
+}
+
+.cat_supply2 .litter{
+	padding-top: 30px;
+}
+/* -------------dog_supply--------------- */
+.dog_supply, .dog_supply2{
+  /* width: 1200px; */
+  /* width: 62.5vw; */
+  /* margin: 0 auto; */
+}
+
+.dog_supply ul, .dog_supply2 ul{
+  height: 265px;
+  background-image: url(../img/other/shelf.png);
+  background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 105%;
+  display: flex;
+  justify-content: center;
+  /* outline: 3px solid lightblue; */
+}
+
+.dog_supply li{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  /* outline: 3px solid orange; */
+}
+
+.dog_supply2 li{
+  width: 196px;
+  height: 150px;
+  display: flex;
+  /* outline: 3px solid aquamarine; */
+}
+
+.dog_supply p{
+  font-size: 14px;
+  background-image: url(../img/others/card-small.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center bottom;
+  padding-top: 84px;
+  width: 60px;
+  /* outline: 2px solid purple; */
+}
+
+.dog_supply2 p{
+  font-size: 14px;
+  background-image: url(../img/others/card-big3.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center bottom;
+  padding-top: 80px;
+  width: 90px;
+  /* outline: 2px solid gold; */
+}
+
+.dog_supply2 .p1{
+	background-image: url(../img/others/card-small.png);
+	padding-top: 84px;
+}
+
+.dog_supply img{
+  width: 150px;
+}
+
+.dog_supply2 img{
+	padding-top: 10px;
+  width: 140px;
+}
+
+.dog_toy{
+	position: relative;
+}
+
+.dog_toy3{
+	z-index: 10;
+}
+
+.spilled_dogfood{
+	position: absolute;
+	top: 4px;
+	left: 56px;
+	opacity: 0;
+}
+/* ---------------hover--------------- */
+
+.dog_toy:hover .dog_toy3{
+	opacity: 0;
+}
+
+.dog_toy:hover .spilled_dogfood{
+	opacity: 1;
+}
+
+.cat_supply img:hover, .cat_supply2 img:hover, .dog_supply img:hover, .dog_supply2 img:hover{
+	background-image: url(../img/hover/hover2.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/* ---------------------768px--------------------- */
+@media screen and (max-width:768px){
+
+	.cat_hot{
+		padding-top: 0;
+	}
+
+	.cat_hot ul, .dog_hot ul{
+		background-size: contain;
+	}
+
+	.cat_hot li, .dog_hot li{
+		width: 130px;
+	}
+
+	.cat_hot img, .dog_hot img{
+		width: 150px;
+	}
+
+	.pet_supply h1, .pet_supply h1{
+		margin-bottom: 30px;
+	}
+
+	.pet_supply .hot_tag{
+		top: -0.52vw;
+		left: 0;
+	}
+
+	.cat_supply li,.cat_supply2 li, .dog_supply li, .dog_supply2 li{
+		/* width: 150px; */
+		width: 130px;
+		height: 110px;
+	}
+	.cat_supply img, .cat_supply2 img, .dog_supply img, .dog_supply2 img{
+		width: 100px;
+	}
+
+	.cat_supply a, .cat_supply2 a, .dog_supply a, .dog_supply2 a{
+		display: flex;
+    	align-self: flex-end;
+	}
+
+	.cat_supply ul, .cat_supply2 ul, .dog_supply ul, .dog_supply2 ul{
+		background-size: contain;
+		height: 210px;
+	}
+	.cat_supply p, .cat_supply2 p, .dog_supply p, .dog_supply2 p{
+		font-size: 0.729vw;
+		padding-top: 43px;		
+	}
+
+	.cat_supply2 .p1, .cat_supply2 .p2{
+		padding-top: 29px;
+	}
+
+	.dog_supply2 .p1 {
+		padding-top: 47px;
+	}
+}
+/* ---------------------428px--------------------- */
+@media screen and (max-width:428px){
+	.cat_hot img, .dog_hot img{
+		width: 28.9vw;
+	}
+
+	.cat_hot ul, .dog_hot ul{
+		height: 175px;
+	}
+
+	.pet_supply .No1, .pet_supply .No2, .pet_supply .No3{
+		top: 90px;
+	}
+
+	.pet_supply .medal{
+		width: 35%;
+	}
+
+	.cat_supply ul, .cat_supply2 ul, .dog_supply ul, .dog_supply2 ul{
+		height: 165px;
+	}
+
+	.cat_supply li, .cat_supply2 li, .dog_supply li, .dog_supply2 li{
+		width: 30.37vw;
+		display: initial;
+	}
+
+	.cat_supply p, .cat_supply2 p, .dog_supply p, .dog_supply2 p, .dog_supply2 .p1{
+		background-image: none;
+	}
+
+	.cat_supply2 .p1, .cat_supply2 .p2, .cat_supply p, .cat_supply2 p,
+	 .dog_supply p, .dog_supply2 p, .dog_supply2 .p1, .cat_supply2 .litter{
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.cat_supply img, .cat_supply2 img, .dog_supply img, .dog_supply2 img{
+		padding: 0;
+		width: 21.73vw;
+		margin: 0 auto;
+	}
+
+	.cat_supply2 .cat-toy{
+		width: 18vw;
+	}
+}

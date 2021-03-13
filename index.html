@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/index.css">
+	<link rel="stylesheet" href="style/material_icon.css">
+	<link rel="stylesheet" href="style/nav&footer.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+	<script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- --------------------------提示用modal--------------------------------- -->
+		<div class="mask">
+			<div class="board">
+				<img src="./img/other/127726.jpg" alt="" class="notice_pic">
+				<p class="notice"><span>此為學生作品，非為營利網站。</span><br><br>如需下架網站中所使用的圖片請聯絡wanglt242@gmail.com，我會盡速撤下圖片，感謝您的合作。</p>
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 151 151" class="closeIcon">
+					<g id="Group_194" data-name="Group 194" transform="translate(-183 -1280)">
+						<circle id="Ellipse_2" data-name="Ellipse 2" cx="75.5" cy="75.5" r="75.5" transform="translate(183 1280)" fill="#726565"/>
+						<line id="Line_1" data-name="Line 1" x1="76.643" y1="66.155" transform="translate(220.178 1322.422)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="8"/>
+						<line id="Line_2" data-name="Line 2" x1="75.836" y2="66.155" transform="translate(220.582 1322.422)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="8"/>
+					</g>
+				</svg>
+				
+			</div>
+		</div>
+		<!-- -------------------nav-------------------------- -->
+			<nav>
+				<a href="index.html"><img src="img/icon_logo/logo-nobg.png" alt=""></a>
+				<ul class="menu">
+					<li><a href="about.html">關於我們</a></li>
+					<li>
+						<a href="house.html" class="about_rent">房屋總覽</a>
+						<!-- <ol class="submenu">
+							<li><a href="house.html">房屋總覽</a></li>
+						</ol> -->
+					</li>
+					<li class="pet_goods">
+            <p><a href="pet_supply.html">寵物用品</a></p>
+						<ol class="submenu2">
+              <li class="last"><span class="material-icons">arrow_back</span></li>
+							<li class="submenu_cat">
+								<a href="">貓</a>
+								<div class="son_menu">
+                  <dl class="last2"><span class="material-icons">arrow_back</span></dl>
+									<dl><a href="">貓食</a></dl>
+									<dl><a href="">食器</a></dl>
+									<dl><a href="">床&窩</a></dl>
+									<dl><a href="">玩具&貓抓板</a></dl>
+									<dl><a href="">貓砂&清潔用品</a></dl>
+									<dl><a href="">外出用品</a></dl>
+								</div>
+							</li>
+
+							<li class="submenu_dog">
+								<a href="">狗</a>
+								<div class="son_menu">
+                  <dl class="last2"><span class="material-icons">arrow_back</span></dl>
+									<dl><a href="">狗食</a></dl>
+									<dl><a href="">食器</a></dl>
+									<dl><a href="">床&窩</a></dl>
+									<dl><a href="">玩具</a></dl>
+									<dl><a href="">清潔用品</a></dl>
+									<dl><a href="">外出用品</a></dl>
+								</div>
+							</li>
+						</ol>
+					</li>
+					<li><a href="discount.html">優惠活動</a></li>
+					<li><a href="contact.html">聯絡我們</a></li>
+				</ul>
+
+
+				<ul class="icon">
+					<!-- <li class="last"><span class="material-icons">arrow_back</span></li> -->
+          <!-- <li class="last2"><span class="material-icons">arrow_back</span></li> -->
+					<li><a href=""><span class="material-icons">shopping_cart</span></a></li>
+					<li><a href=""><span class="material-icons">person</span></a></li>
+          <li class="ham_bar"><span class="material-icons">menu</span></li>
+				</ul>
+			</nav>
+		<!-- -------------------carousel-------------------------- -->
+		<div class="banner">
+			<ul class="carousel_img">
+				<li><img src="img/carousel/carousel1.jpg" alt=""></li>
+				<li><img src="img/carousel/carousel2.jpg" alt=""></li>
+				<li><img src="img/carousel/carousel3.jpg" alt=""></li>
+				<li><img src="img/carousel/carousel4.jpg" alt=""></li>
+				<li><img src="img/carousel/carousel5.jpg" alt=""></li>
+			</ul>
+			
+			<ul class="carousel_btn">
+			
+			</ul>
+		</div>
+		<!-- ----------------------about----------------------- -->
+		<div class="about">
+			<h1>關於我們</h1>
+			<p class="p1">Apartment+pet=Apetment.<br>「牠是我生命中重要的一部分。」</p>
+
+			<p>
+				「Apetment」是結合友善寵物租屋及販售寵物商品的平台。透過本站你可以在這邊找到理想的房屋物件。<br>本站的目標是透過成為出租方和承租方的橋樑，以減少因為租屋問題無法把心愛的寵物一起帶出去、無法養寵物，甚至是因為租屋問題棄養的情況。讓大家可以與心愛的寵物一直快樂地在一起。
+			</p>
+
+			<a href="./about.html">更多</a>
+		</div>
+		<!-- --------------------------trigger--------------------------- -->
+		<div class="trigger1"></div>
+		<!-- --------------------------house--------------------------- -->
+		<div class="house">
+			<div class="trigger2"></div>
+			<h1>房屋總覽</h1>
+			<ul class="house_content">
+				<li class="content1">
+					<div class="house-img1">
+
+					</div>
+					<h3>住宅區寧靜小套房</h3>
+					<P>台北市內湖區康寧路111號3樓<br>10坪</P>
+					<h4>NTD.8000/月</h4>
+					<a href="">詳細內容</a>
+				</li>
+				<li class="content2">
+					<div class="house-img2">
+
+					</div>
+					<h3>近汐科 單層住家</h3>
+					<P>新北市汐止區大同路二段30巷2樓<br>20坪</P>
+					<h4>NTD.35000/月</h4>
+					<a href="">詳細內容</a>
+				</li>
+				<li class="content3">
+					<div class="house-img3">
+
+					</div>
+					<h3>近中興商圈 套房</h3>
+					<P>新北市汐止區福德一路213巷39號4樓<br>5坪</P>
+					<h4>NTD.8000/月</h4>
+					<a href="">詳細內容</a>
+				</li>
+			</ul>
+
+			<ul class="house_btn">
+				<li><a href="">更多物件</a></li>
+				<li><a href="">入住須知</a></li>
+			</ul>
+		</div>
+		<!-- ---------------pet_supply--------------------- -->
+		<div class="pet_supply">
+			<h1>寵物用品</h1>
+
+			<ul>
+				<li>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="./img/icon_logo/cat-icon.png" alt="Avatar">
+							</div>
+							<div class="flip-card-back">
+								<img src="./img/pet_supply/cat/cat-hover.png" alt="">
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<h2>貓用品</h2>
+					<a href="">更多用品</a>
+				</li>
+				<li>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="./img/icon_logo/dog-icon.png" alt="Avatar">
+							</div>
+							<div class="flip-card-back">
+								<img src="./img/pet_supply/dog/dog-hover.png" alt="">
+							</div>
+						</div>
+					</div>
+					<!-- <img src="img/icon_logo/dog-icon.png" alt=""> -->
+					<h2>狗用品</h2>
+					<a href="">更多用品</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<!-- ---------------discount--------------------- -->
+		<div class="discount">
+			<h1>優惠活動</h1>
+
+			<ul class="discount_rope">
+				<!-- <img src="img/others/rope.png" alt="" class="rope1"> -->
+				<!-- <img src="./img/other/rope.png" alt="" class="rope1"> -->
+
+				<img src="img/others/rope-2.png" alt="" class="rope2">
+			</ul>
+			
+			<ul class="discount_card">
+				<li class="discount-card1">
+					<div class="img1">
+
+					</div>
+					<h2>通樂寵物美容</h2>
+					<p class="address">台北市松山區民生東路五段69號</p>
+					<p>持當月房租繳費證明</p>
+					<span>85折</span>
+					<p class="date">2020/11/1 ~ 2020/12/31</p>
+
+				</li>
+				<li class="discount-card2">
+					<div class="img2">
+
+					</div>
+					<h2>300元貓食任選一＋<br>貓碗A或B＋貓零食B</h2>
+					<p class="crossout">NTD.1200</p>
+					<span>NTD.700</span>
+					<p class="date">2020/11/1 ~ 2020/12/31</p>
+				</li>
+				<li class="discount-card3">
+					<div class="img3">
+
+					</div>
+					<h2>汪汪醫生寵物醫院</h2>
+					<p class="address">台北市中正區羅斯福路20巷3號5樓</p>
+					<p class="crossout">NTD.50
+					</p>
+					<p>持當月房租繳費證明</p>
+					<span>免掛號費</span>
+				</li>
+				<li class="discount-card4">
+					<div class="img4">
+
+					</div>
+					<h2>松山寵物醫院</h2>
+					<p class="address">台北市松山區松壽路13號</p>
+					<p>持當月房租繳費證明</p>
+					<span>寵物結紮85折</span>
+				</li>
+			</ul>
+			<ul class="discount_btn">
+				<li class="btn b1"><span class="material-icons b">keyboard_arrow_left</span></li>
+				<li class="btn b2"><span class="material-icons b">keyboard_arrow_right</span></li>
+			</ul>
+			<a href="">更多優惠活動</a>
+
+		</div>
+		<!-- ---------------footer--------------------- -->
+			<footer>
+				<ul>
+					<li><a href=""><span class="material-icons">facebook</span></a></li>
+				</ul>
+
+				<p>
+					official@apetment.com<br>
+					(02)3303608<br>
+					服務時間：週一至週日8:00 ~ 21:00
+				</p>
+			</footer>
+	</div>
+	<script src="./js/index.js"></script>
+	<script src="./js/nav.js"></script>
+</body>
+
+</html>

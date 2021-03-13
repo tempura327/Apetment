@@ -1,0 +1,590 @@
+@import url('reset.css');
+
+
+
+.menu li:nth-child(4) a{
+	color: #F7E8A9;
+	font-weight: bold;
+} 
+
+/* -----------discount------------- */
+.discount{
+	width: 62.5vw;
+	margin: 0 auto 130px;
+	/* padding: 106.34px 20px 0; */
+	padding: 106.34px 0 0;
+	box-sizing: border-box;
+
+	/* outline: 3px solid firebrick; */
+}
+
+.discount h1{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 auto 60px;
+}
+
+.discount .subtitle{
+	/* font-size: 24px; */
+	font-size: 1.25vw;
+	font-weight: bold;
+	/* margin-bottom: 20px; */
+	margin-bottom: 1.04vw;
+}
+
+.collaboration_discount{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* padding: 0 120px; */
+	margin-bottom: 130px;
+
+	/* outline: 3px solid orange; */
+}
+
+/* ------------合作優惠圖片位置微調----------------- */
+.discount .collaboration_img1 .img1{
+	position: absolute;
+  top: 0;
+  left: -6vw;
+  width: 30vw;
+}
+
+.discount .collaboration_img2 .img2{
+	position: absolute;
+	top: -2vw;
+	left: -3vw;
+	width: 240px;
+}
+
+.discount .collaboration_img3 .img3{
+	position: absolute;
+	top: 0px;
+	/* left: -220px; */
+	left: -11.458vw;
+	/* width: 660px; */
+	width: 34.375vw;
+
+	left: -24vw;
+	width: 55vw;
+}
+
+.discount .collaboration_img4 .img4{
+	position: absolute;
+	top: 0px;
+	left: -9vw;
+	width: 32vw;
+}
+/* ---------------discount_collaboration--------------------- */
+.discount .collaboration_discount li{
+	/* width: 400px;
+	height: 400px; */
+	width: 30vw;
+	/* height: 20.833vw; */
+
+	display: flex;
+	
+	/* border: 1px solid #726565; */
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: #fff;
+	
+	margin-bottom: 35px;
+	/* margin-right: 20px; */
+}
+
+.discount .collaboration_img1, .collaboration_img2, .collaboration_img3, .collaboration_img4 {
+	/* width: 200px;
+	height: 400px; */
+	width: 15vw;
+	/* height: 20.833vw; */
+
+	overflow: hidden;
+
+	position: relative;
+
+	/* outline: 3px solid green; */
+}
+
+.discount .collaboration_content{
+	/* width: 200px; */
+	width: 15vw;
+	padding: 3.125vw 10px 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 3.125vw;
+}
+
+.discount .collaboration_content h2{
+	font-weight: bold;
+	/* margin-bottom: 50px; */
+	margin-bottom: 2.604vw;
+	font-size: 1.1458vw;
+}
+
+.discount .collaboration_content p{
+	font-size: 14px;
+	font-size: 0.729vw;
+	margin-bottom: 1.0416vw;
+}
+
+.discount .collaboration_content .address{
+	font-size: 14px;
+	/* margin-bottom: 20px; */
+	margin-bottom: 1.0416vw;
+	font-size: 0.729vw;
+}
+
+
+.discount .collaboration_content span{
+	text-decoration: line-through;
+	font-size: 14px;
+	font-size: 0.729vw;
+	/* margin-bottom: 20px; */
+	
+}
+
+.discount .collaboration_content h3{
+	font-size: 20px;
+	font-size: 1.04vw;
+	font-weight: bold;
+	color: #EFA5A5;
+	/* margin-bottom: 20px; */
+	margin-bottom: 1.0416vw;
+}
+/* ----------------discount_pet_supply-------------------- */
+.pet_supply_content .subtitle{
+	margin: 10px auto 30px;
+	margin: 0.52vw auto 1.56vw;
+}
+
+.pet_supply_discount li{
+	/* width: 900px;
+	height: 300px; */
+	/* width: 46.875vw; */
+	/* height: 15.625vw; */
+
+	display: flex;
+	justify-content: space-around;
+
+	/* margin: 0 auto 50px; */
+	margin: 0 auto 2.604vw;
+				
+	border-radius: 15px;
+	background-color: #fff;
+}
+
+.pet_supply_discount li:last-child{
+	margin-bottom: 0;
+}
+
+
+.pet_supply_img1, .pet_supply_img2, .pet_supply_img3, .pet_supply_img4{
+	width: 400px;
+	
+	/* position: relative; */
+	display: flex;
+	/* outline: 3px solid #858585; */
+}
+
+.img_left{
+	display: flex;
+    align-items: center;
+	/* outline: 3px solid green; */
+}
+
+.img_right{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	/* outline: 3px solid greenyellow; */
+}
+/* -------------寵物用品組圖片位置微調---------------- */
+.pet_supply_discount .pet_supply_img1 .img1{
+	width: 11.54vw;
+}
+
+.pet_supply_discount .pet_supply_img1 .img2{
+	/* position: absolute;
+	top: -10px;
+	left: 185px;
+	width: 180px;
+
+	top: -0.52vw;
+	left: 9.635vw;
+	width: 9.375vw; */
+	width: 8vw;
+}
+
+.pet_supply_discount .pet_supply_img1 .img3{
+	/* position: absolute;
+	top: 120px;
+	left: 205px;
+	width: 160px;
+
+	top: 6.25vw;
+	left: 10.677vw;
+	width: 8.33vw; */
+	width: 8.33vw;
+}
+/* -------------- */
+.pet_supply_discount .pet_supply_img2 .img1{
+	/* position: absolute;
+	top: 30px;
+	left: -20px;
+	width: 250px;
+
+	top: 1.5625vw;
+	left: -1.1458vw; */
+	width: 12vw;
+}
+
+.pet_supply_discount .pet_supply_img2 .img2{
+	/* position: absolute;
+	top: -20px;
+  	left: 170px;
+	width: 200px;
+	  
+	top: -1.1458vw;
+	left: 8.85vw; */
+	width: 9vw;
+}
+
+.pet_supply_discount .pet_supply_img2 .img3{
+	/* position: absolute;
+	top: 120px;
+  	left: 170px;
+  	width: 200px;
+
+	top: 6.25vw;
+  	left: 8.85vw; */
+	width: 9vw;
+}
+/* -------------- */
+.pet_supply_discount .pet_supply_img3 .imgA{
+	/* position: absolute;
+	top: 30px;
+	left: -10px;
+	width: 250px;
+
+	top: 1.5625vw;
+	left: -0.52vw; */
+	width: 11vw;
+}
+
+.pet_supply_discount .pet_supply_img3 .imgB{
+	/* position: absolute;
+	top: 10px;
+	left: 150px;
+	width: 250px;
+
+	top: 0.52vw;
+	left: 7.8125vw; */
+	width: 10vw;
+}
+/* -------------- */
+.pet_supply_discount .pet_supply_img4 .img1{
+	/* position: absolute;
+	top: 30px;
+	left: -20px;
+	width: 250px;
+
+	top: 1.5625vw;
+	left: -1.1458vw;; */
+	width: 12vw;
+}
+
+.pet_supply_discount .pet_supply_img4 .img2{
+	/* position: absolute;
+	top: 20px;
+  	left: 200px;
+  	width: 130px;
+
+  	top: 1.1458vw;
+  	left: 10.416vw;; */
+	width: 6vw;
+}
+
+.pet_supply_discount .pet_supply_img4 .img3{
+	/* position: absolute;
+	top: 110px;
+	left: 180px;
+	width: 180px;
+
+	top: 5.729vw;
+	left: 9.375vw; */
+	width: 8vw;
+}
+/* ----------------------------------------- */
+.pet_supply_discount .pet_supply_content{
+	width: 460px;
+	/* outline: 3px solid brown; */
+}
+
+.pet_supply_discount h2{
+	/* font-size: 30px; */
+	font-size: 1.56vw;
+	font-weight: bold;
+	/* margin-bottom: 20px; */
+	margin-bottom: 1.04vw;
+	color: #EFA5A5;
+
+}
+
+.pet_supply_discount p{
+	margin-bottom: 20px;
+	margin-bottom: 1.04vw;
+	/* font-size: 14px; */
+	font-size: 0.729vw;
+}
+
+.discount .pet_supply_content span{
+	text-decoration: line-through;
+	/* font-size: 14px; */
+	font-size: 0.729vw;
+}
+
+.pet_supply_discount a{
+	display: block;
+	/* width: 100px;
+	height: 45px;
+	line-height: 45px; */
+	width: 5.208vw;
+	height: 2.34vw;
+	line-height: 2.34vw;
+	text-align: center;
+	/* font-size: 14px; */
+	font-size: 0.729vw;
+	color: #F2EFE7;
+	text-decoration: none;
+	margin: 0 auto;
+	background-color: #726565;
+	/* border-radius: 15px; */
+	border-radius: 0.78vw;
+	margin-bottom: 1.04vw;
+}
+
+/* --------------------hover------------------ */
+.pet_supply_discount a:hover{
+	background-color: #EFA5A5;
+}
+
+
+/* ---------------------768px--------------------- */
+@media screen and (max-width:768px){
+
+	.discount{
+		width: 80vw;
+	}
+	
+	.discount h1{
+		margin-bottom: 30px;
+	}
+	
+
+	.discount .collaboration_content{
+		width: 17vw;
+	}
+	
+
+	.discount .collaboration_discount li{
+		width: 34vw;
+	}
+	
+	.collaboration_discount{
+		margin-bottom: 70px;
+	}
+
+	.discount .collaboration_img1 .img1{
+		left: -17.125vw;
+		width: 54vw;
+	}
+
+	.discount .collaboration_img2 .img2{
+		left: -22vw;
+    	width: 50vw;
+	}
+
+	.discount .collaboration_img3 .img3{
+		left: -38vw;
+		width: 95vw;
+	}	
+
+	.discount .collaboration_img4 .img4{
+		width: 95vw;
+	}
+	/* ----------------------------- */
+	 .pet_supply_discount li{
+		width: 70vw;
+		/* height: 330px; */
+	}
+	.img_right{
+		display: flex;
+		flex-direction: column;
+	}
+	.pet_supply_discount a{
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 10px;
+	}
+
+	.discount .collaboration_img1, .collaboration_img2, .collaboration_img3, .collaboration_img4{
+		width: 17vw;
+	}
+
+	.pet_supply_img1, .pet_supply_img2, .pet_supply_img3, .pet_supply_img4{
+		width: auto;
+	}
+
+	.pet_supply_discount .pet_supply_img1 .img1, .pet_supply_discount .pet_supply_img2 .img1,
+	 .pet_supply_discount .pet_supply_img3 .imgA, .pet_supply_discount .pet_supply_img4 .img1{
+		width: 15vw;
+	}
+
+	.pet_supply_discount .pet_supply_img1 .img2,
+	 .pet_supply_discount .pet_supply_img1 .img3,
+	 .pet_supply_discount .pet_supply_img2 .img2,
+	  .pet_supply_discount .pet_supply_img2 .img3,
+	  .pet_supply_discount .pet_supply_img3 .imgB,
+	  .pet_supply_discount .pet_supply_img4 .img3{
+		width: 11vw;
+	}
+
+	.pet_supply_discount .pet_supply_img4 .img2{
+		width: 9vw;
+	} 
+}
+/* ---------------------428px--------------------- */
+@media screen and (max-width:428px){
+	.pet_supply_discount a{
+		width: 70px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 7px;
+	}
+
+	.discount{
+		width: 100vw;
+	}
+
+	.collaboration_discount{
+		justify-content: center;
+	}
+
+	.discount .collaboration_discount li{
+		width: 42vw;
+	}
+
+	.discount .collaboration_img1, .collaboration_img2, .collaboration_img3, .collaboration_img4{
+		width: 17vw;
+	}
+
+	.discount .collaboration_content{
+		width: 25vw;
+	}
+
+	.discount .collaboration_discount li:first-child{
+		margin-right: 10px;
+	}
+
+	.discount .collaboration_discount li:nth-child(3){
+		margin-right: 10px;
+	}
+
+	.pet_supply_discount li{
+		width: 90vw;
+	}
+
+	.pet_supply_discount .pet_supply_content{
+		width: 50vw;
+	}
+
+	.pet_supply_img1, .pet_supply_img2, .pet_supply_img3, .pet_supply_img4{
+		width: 40vw;
+	}
+
+	.pet_supply_discount .pet_supply_img1 .img1, 
+	.pet_supply_discount .pet_supply_img2 .img1, 
+	.pet_supply_discount .pet_supply_img3 .imgA, 
+	.pet_supply_discount .pet_supply_img4 .img1{
+		width: 20vw;
+	}
+
+	.pet_supply_discount .pet_supply_img1 .img2,
+	 .pet_supply_discount .pet_supply_img1 .img3, 
+	 .pet_supply_discount .pet_supply_img2 .img2, 
+	 .pet_supply_discount .pet_supply_img2 .img3, 
+	 .pet_supply_discount .pet_supply_img3 .imgB,
+	  .pet_supply_discount .pet_supply_img4 .img3{
+		width: 18vw;
+	}
+
+	.pet_supply_content .subtitle, .pet_supply_discount p{
+		padding: 0 5px;
+		margin: 10px 0;
+	}
+
+	.pet_supply_discount a{
+		/* margin-bottom: 2.4vw; */
+		margin-bottom: 10px;
+	}
+
+}
+
+/* ---------------------360px--------------------- */
+@media screen and (max-width:360px){
+	.discount{
+		width: 80vw;
+	}
+
+	.discount .collaboration_discount li{
+		width: 100%;
+	}
+
+	.discount .collaboration_discount li:first-child,
+	.discount .collaboration_discount li:nth-child(3){
+		margin-right: 0;
+	}
+
+	.discount .collaboration_content, 
+	.discount .collaboration_img1, .collaboration_img2, .collaboration_img3, .collaboration_img4{
+		width: 40vw;
+	}
+
+	.discount .collaboration_img1 .img1{
+		left: -14vw;
+	}
+
+	.discount .collaboration_img2 .img2{
+		left: -9vw;
+	}
+
+	.discount .collaboration_img4 .img4{
+		width: 78vw;
+	}
+
+	.pet_supply_discount li{
+		width: 100%;
+	}
+}
+/* ---------------------320px--------------------- */
+@media screen and (max-width:320px){
+	.discount .collaboration_img1 .img1{
+		top: calc((100% - 230.39px) / 2);
+	}
+
+	.discount .collaboration_img2 .img2{
+		top: calc((100% - 213.33px) / 2);
+
+	}
+
+	.discount .collaboration_img3 .img3{
+		top: calc((100% - 184.37px) / 2);
+	}
+
+	.discount .collaboration_img4 .img4{
+		top: calc((100% - 202.76px) / 2);
+	}
+
+}

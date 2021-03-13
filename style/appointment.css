@@ -1,0 +1,316 @@
+@import url('reset.css');
+
+
+/* -------------appointment---------------- */
+.appointment{
+	width: 62.5vw;
+  margin: 0 auto 130px;
+  padding-top: 106.34px;
+  
+  outline: 3px solid blueviolet;
+}
+
+.appointment h1{
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-bottom: 60px;
+}
+
+.appointment h2{
+  margin-bottom: 22px;
+}
+
+.appointment h2:nth-child(4){
+	margin-bottom: 291px;
+}
+
+.appointment h2:nth-child(5){
+	margin-bottom: 130px;
+}
+
+.appointment iframe{
+	width: 46.875vw;
+	height: 15.625vw;
+	border-radius: 15px;
+}
+
+.appointment .table{
+	display: flex;
+	justify-content: center;
+
+	margin-top: 60px;
+
+	/* outline: 3px solid red; */
+}
+
+.appointment .table-left{
+	margin-right: 60px;
+	/* outline: 3px solid orange; */
+}
+
+.appointment .table-right{
+	display: flex;
+	flex-direction: column;
+		
+	/* outline: 3px solid yellow; */
+}
+
+.appointment a{
+	display: block;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #726565;
+	border-radius: 15px;
+	color: #F2EFE7;
+	text-decoration: none;
+
+	margin: 0 auto;
+}
+
+.appointment input{
+	width: 150px;
+	height: 30px;
+	border: 1px solid #726565;
+	border-radius: 5px;
+	font-size: 22px;
+
+	margin-bottom: 26px;
+
+	color: #726565;
+}
+
+.appointment input:focus{
+	outline: none;
+	background-color: rgba(239, 100, 100,.1);
+}
+
+.appointment textarea{
+	width: 100%;
+	height: 100px;
+	border: 1px solid #726565;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 22px;
+	color: #726565;
+
+	margin-bottom: 40px;
+}
+
+.appointment textarea:focus{
+	outline: none;
+	color: #726565;
+	background-color: rgba(239, 100, 100, .1);
+}
+/* ---------------time---------------- */
+.time{
+	display: flex;
+	margin-bottom: 26px;
+
+	/* outline: 3px solid greenyellow; */
+}
+
+.clock{
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #726565;
+	border-radius: 15px;
+	background-color: #fff;
+
+	display: flex;
+	justify-content: center;
+}
+
+.clock .left_btn{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.clock_time{
+	display: flex;
+	justify-content: center;
+}
+
+.calendar{
+	width: 300px;
+	margin-right: 30px;
+	
+}
+/* Month header */
+.month {
+	padding: 5px 0;
+	width: 300px;
+	background: #0097A7;
+	border-radius: 5px 5px 0 0;
+
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+/* Month list */
+.month ul {
+	 display: flex;
+}
+
+.month ul li {
+	color:#F2EFE7;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 0 20px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+	/* float: left; */
+	padding-top: 5px;
+}
+
+/* Next button */
+.month .next {
+	/* float: right; */
+	padding-top: 5px;
+	order: 3;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+	margin: 0;
+	padding: 5px 14px;
+	background-color:#ddd;
+	width: 300px;
+	box-sizing: border-box;
+}
+
+.weekdays li {
+	display: inline-block;
+	width: 12%;
+	color: #666;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Days (1-31) */
+.days {
+	padding: 5px 14px;
+	background: #f6f6f6;
+	margin: 0;
+	width: 300px;
+	box-sizing: border-box;
+	text-align: left;
+	border-radius: 0 0 5px 5px;
+}
+
+.days li {
+	list-style-type: none;
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	margin-bottom: 3px;
+	font-size:14px;
+	color:#777;
+}
+/* -------------footer---------------- */
+
+/* --------------------hover------------------ */
+.appointment a:hover {
+	background-color: #EFA5A5;
+}
+
+/* ---------------------768px--------------------- */
+@media screen and (max-width:768px){
+
+
+	/* ----------------------------- */
+	.appointment h1{
+		margin-bottom: 30px;
+	}
+
+	.appointment iframe{
+		/* width: 600px; */
+		width: 78.125vw;
+		/* height: 200px; */
+		height: 20.04vw;
+	}
+
+	.appointment .table{
+		margin-top: 30px;
+	}
+
+	.appointment .table-left{
+		margin-right: 20px;
+		margin-left: 10px;
+	}
+	.appointment a{
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 10px;
+		font-size: 14px;
+	}
+
+	.appointment textarea{
+		width: 50%;
+	}
+
+	.calendar{
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+
+	.time{
+		flex-wrap: wrap;
+	}
+
+	/* ---------------------428px--------------------- */
+@media screen and (max-width:428px){
+	.calendar{
+		margin-right: 5px;
+		width: 200px;
+	}
+
+	.month, .weekdays, .days{
+		width: 200px;
+	}
+
+	.month ul li{
+		margin: 0 10px;
+	}
+
+	.weekdays li, .days li{
+		font-size: 12px;
+		width: 11%;
+	}
+	
+	.weekdays, .days{
+		padding: 5px 0;
+	}
+	
+	.clock{
+		width: 100px;
+		height: 35px;
+		line-height: 35px;
+		border-radius: 10px;
+	}
+
+	.clock_time{
+		font-size: 12px;
+	}
+
+	.clock .left_btn{
+		font-size: 16px;
+	}
+
+	.appointment h1{
+		font-size: 5.6vw;
+	}
+
+	.appointment h2{
+		font-size: 1.145vw;
+	}
+}

@@ -1,0 +1,505 @@
+/* =====================1920====================== */
+
+body{
+	font-family: 微軟正黑體;
+	color:#726565;
+	font-size: 22px;
+  line-height: 1.7;
+	text-align: center;
+	
+	background-color: #F2EFE7;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+/*----------------nav---------------------*/
+.icon .ham_bar, .submenu2 .last, .last2{
+	display: none;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	font-size: 20px;
+
+	background-color: #0097A7;
+
+	width: 100%;
+	line-height:0;
+
+	padding-right: 5px;
+
+	position: fixed;
+	z-index: 10;
+}
+
+nav a{
+	display: block;
+	color: #F2EFE7;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav p{
+	height: 100%;
+	display: flex;
+	align-items: center;	
+}
+
+nav img{
+	width: 100px;
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+
+nav .menu{
+	display: flex;
+	position: relative;
+}
+
+nav .menu li{
+	display: flex;
+	flex-direction: column;
+	margin: 0 1.04vw;
+}
+
+/* .menu li:nth-child(5) a{
+	color: #F7E8A9;
+	font-weight: bold;
+} */
+
+nav .menu .submenu a{
+	color:#726565;
+	font-weight: normal;
+}
+
+nav .menu .submenu2 a{
+	color:#726565;
+	font-weight: normal;
+}
+
+nav .menu .submenu li{
+	width: 100%;
+	height: 45px;
+	margin: 0;
+}
+
+.submenu a{
+	color: #726565;
+	font-size: 16px;
+	margin: 0 18px;
+	line-height: 45px;
+}
+
+.submenu2 a{
+	color: #726565;
+	font-size: 16px;
+	line-height: 45px;
+}
+
+nav .menu .submenu2{
+	display: none;
+
+	position: absolute;
+	top: 71.34px;
+	z-index: 1;
+	background-color: #fff;
+	
+	color: #726565;
+	box-shadow: 1px 2px 3px #B3B3B3;
+}
+nav .menu .submenu2 li{
+	width: 100px;
+	height: 45px;
+	margin: 0;
+}
+
+nav .menu .submenu2 li:nth-child(2){
+	position: relative;
+}
+
+nav .menu .submenu2 .son_menu{
+	display: none;
+
+	position: absolute;
+	top: 0px;
+	left: 100px;
+
+	background-color: #fff;
+	width: 120px;
+	height: 270px;
+	margin: 0;
+	box-shadow: 1px 2px 3px #B3B3B3;
+}
+
+
+
+nav .menu .submenu2  dl{
+	width: 120px;
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+nav .menu .submenu2 .son_menu a{
+	color: #726565;
+}
+
+.submenu li:nth-child(1), .submenu2 li:nth-child(1){
+	border-bottom: 1px solid #e6e6e6;
+}
+/* ------------nav-icon--------------------- */
+.icon{
+	display: flex;
+
+	/* outline: 2px solid #fff; */
+	width: 88px;
+}
+
+.icon li{
+	margin: 0 10px;
+}
+
+.icon li{
+	display: block;
+	line-height: 66px;
+	font-size: 30px;
+	color: #F2EFE7;
+}
+
+
+/* ----------------nav-hover----------------------- */
+.menu a:hover{
+	color: #F7E8A9;
+	font-weight: bold;
+}
+
+.menu .submenu2 a:hover{
+	color: #726565;
+	font-weight: normal;
+}
+
+.menu li:hover .submenu{
+	display: block;
+}
+
+.pet_goods:hover .submenu2{
+	display: block;
+}
+
+.menu .submenu2 li:hover .son_menu{
+	display: block;
+}
+
+.submenu2 .submenu_cat:hover .pet_goods .submenu2 li .son_menu{
+	display: block;
+}
+
+nav .menu .submenu li:hover, nav .submenu2 li:hover{
+	background-color: #F7E8A9;
+}
+
+nav .menu .submenu li:hover a{
+	color: #726565;
+	font-weight: normal;
+}
+
+nav .menu .submenu2 .son_menu dl:hover{
+	background-color: #F7E8A9;
+}
+/* -----------右方拉動條------------- */
+::-webkit-scrollbar{
+	border-radius: 0 15px 15px 0;
+	background-color: #F2EFE7;
+  border: 1px solid #F2EFE7;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #726565;
+  border-radius: 15px;
+  border: 1px solid #726565;
+}
+/* -------------footer---------------- */
+footer{
+	background-color: #0097A7;
+	display: flex;
+	padding: 10px;
+}
+
+footer ul{
+	display: flex;
+	align-items: center;
+}
+
+footer li{
+	margin: 0 5px;
+}
+
+footer a{
+	display: block;
+	color: #F2EFE7;
+	font-size: 30px;
+}
+
+footer p{
+	text-align: center;
+	color: #F2EFE7;
+	font-size: 14px;
+	
+	display: block;
+	margin: 0 auto;
+}
+
+/* --------------------hover------------------ */
+nav .icon li:hover, footer a:hover{
+	color: #F7E8A9;
+	transform: scale(1.2);
+}
+
+/* =====================768====================== */
+@media screen and (max-width:768px){
+	nav{
+		width: 100vw;
+	}
+
+	nav .menu{
+		position: absolute;
+		top: 71.35px;
+		left: 0;
+		
+		flex-direction: column;
+		height: 200px;
+		background-color: #0097A7;
+		border-top: 2px dashed #F2EFE7;
+
+		display: none;
+	}
+
+	.icon{
+		/* outline: 2px solid yellow; */
+		width: 132px;
+	}
+
+	.icon .ham_bar, .submenu2 .last, .last2{
+		display: block;
+	}
+
+	.icon li:first-child{
+		color: #0097A7;
+	}
+
+	.icon li:first-child, .icon li:nth-child(2){
+		/* display: none; */
+		/* position: relative; */  /*取消*/
+    left: -230px;
+    top: 65px;
+    z-index: 1;
+	}
+
+	nav .menu li{
+		align-self: center;
+		margin: 0;
+	}
+
+	.menu a{
+		width: 100vw;
+		height: 40px;
+	}
+
+	nav .menu .submenu2{
+		top: 0;
+	}
+	.submenu_cat a:first-child, .submenu_dog a:first-child,{
+		display: block;
+	}
+
+	nav .menu .submenu2 li{
+		width: auto;
+		/* height: 100px; */
+		height: 100px;
+		line-height: 100px;
+	}
+
+	nav .menu .submenu2 li a{
+		height: 100px;
+		z-index: -1;
+	}
+
+	nav .menu .submenu2 .son_menu{
+		width: 100vw;
+		height: 300px;
+
+		background-color: #0097A7;
+	}
+
+	nav .menu .submenu2 .submenu_cat .son_menu{
+		display: block;
+		top: -101px;
+		left: 0;
+	}
+
+	nav .menu .submenu2 .submenu_dog .son_menu{
+		display: block;
+		top: 0;
+		left: 0;
+	}
+
+	nav .menu .submenu2 .son_menu a{
+		height: 50px;
+		color: #F2EFE7;
+	}
+
+	nav .menu .submenu2 dl{
+		width: 100vw;
+		border-bottom: none;
+	}
+
+	nav .menu .submenu2 dl a{
+		width: 100vw;
+	}
+
+	nav .pet_goods:hover .submenu2{
+		display: none;
+	}
+
+	nav .menu .submenu2 .son_menu dl{
+		height: 50px;
+	}
+
+	.last span{
+		line-height: 100px;
+	}
+
+	.last2 span{
+		line-height: 60px;
+	}
+
+	.last2{
+		color: #F2EFE7;
+	}
+	/* ---------------取消hover------------------- */
+	nav .menu .submenu li:hover, nav .submenu2 li:hover{
+		background-color: transparent;
+	}
+	
+	
+	nav .menu .submenu2 .son_menu dl:hover{
+		background-color: transparent;
+	}
+}
+
+
+/* =====================428====================== */
+@media screen and (max-width:428px){
+	nav .menu{
+		position: absolute;
+		top: 71.35px;
+		left: 0;
+		
+		flex-direction: column;
+		height: 200px;
+		background-color: #0097A7;
+		border-top: 2px dashed #F2EFE7;
+
+		display: none;
+	}
+
+	.icon .ham_bar{
+		display: block;
+	}
+
+	.icon li:first-child, .icon li:nth-child(2){
+		/* display: none; */
+	}
+
+	nav .menu li{
+		align-self: center;
+		margin: 0;
+	}
+
+	.menu a{
+		width: 100vw;
+		height: 40px;
+	}
+
+	nav .menu .submenu2{
+		top: 0;
+	}
+
+	.submenu_cat a:first-child, .submenu_dog a:first-child,{
+		display: block;
+	}
+
+	nav .menu .submenu2 li{
+		width: auto;
+		/* height: 100px; */
+		height: 100px;
+		line-height: 100px;
+	}
+
+	nav .menu .submenu2 li a{
+		height: 100px;
+		z-index: -1;
+	}
+
+	nav .menu .submenu2 .son_menu{
+		width: 100vw;
+		height: 300px;
+
+		background-color: #0097A7;
+	}
+
+	nav .menu .submenu2 .submenu_cat .son_menu{
+		display: block;
+		top: -101px;
+		left: 0;
+	}
+
+	nav .menu .submenu2 .submenu_dog .son_menu{
+		display: block;
+		top: 0;
+		left: 0;
+	}
+
+	nav .menu .submenu2 .son_menu a{
+		height: 50px;
+		color: #F2EFE7;
+	}
+
+	nav .menu .submenu2 dl{
+		width: 100vw;
+		border-bottom: none;
+	}
+
+	nav .menu .submenu2 dl a{
+		width: 100vw;
+	}
+
+	nav .pet_goods:hover .submenu2{
+		display: none;
+	}
+
+	nav .menu .submenu2 .son_menu dl{
+		height: 50px;
+	}
+/* ---------------取消hover------------------- */
+	nav .menu .submenu li:hover, nav .submenu2 li:hover{
+		background-color: transparent;
+	}
+	
+	
+	nav .menu .submenu2 .son_menu dl:hover{
+		background-color: transparent;
+	}
+/* ---------------------------------- */
+	footer p{
+		font-size: 0.729vw;
+	}
+}

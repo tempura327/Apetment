@@ -1,0 +1,1040 @@
+@import url('reset.css');
+
+/*-------------carousel---------------------*/
+.banner{
+	/* height: 350px; */
+	/* width: 100vw; */
+	height: 24vw;
+	overflow: hidden;
+	position: relative;
+
+	margin:  0 auto;
+
+	/* outline: 3px solid red; */
+}
+
+.carousel_img{
+	/* height: 325px; */
+	height: 16.927vw;
+	display: flex;
+
+	/*配合animate.js 65行，有relative才會依
+	點的鈕移動相對於原來位置的距離*/
+	position: relative; 
+
+}
+
+.banner img{
+	display: block;
+	width: 100vw;
+}
+
+.banner .carousel_btn{
+	/* position: absolute;
+	left: 49%;
+	bottom: 10px; */
+
+	width: 100%;
+	height: 10vw;
+	text-align: center;
+	line-height: 0.8vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: absolute;
+	/* outline: 3px solid blue; */
+}
+
+.carousel_btn li{
+	/* width: 15px; */
+	/* height: 15px; */
+	width: 0.8vw;
+	height: 0.8vw;
+	border-radius: 50%;
+	background-color: #F2EFE7;
+	/* outline: 1px solid #ccc; */
+
+	/* display: inline-block; */
+	margin: 5px;
+}
+
+.carousel_btn .clicked{
+	/* background-color: #726565; */
+	background-color: #0097A7;
+}
+/*-------------about----------------*/
+.about{
+	width: 62.5vw;
+	/* padding: 40px 45px 0; */
+	box-sizing: border-box;
+
+	margin: 0 auto;
+
+	/* outline: 3px solid orange; */
+}
+
+
+.about h1{
+	font-size: 24px;
+	/* font-size: 1.45vw; */
+	font-weight: bold;
+
+	display: block;
+	
+	text-align: center;
+
+	margin-bottom: 40px;
+}
+
+
+.about p{
+	font-size: 14px;
+	/* font-size: .833vw; */
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+	/* width: 700px; */
+}
+
+.about .p1{
+	margin-bottom: 20px;
+}
+
+.about a{
+	display: block;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #726565;
+	border-radius: 15px;
+
+	font-size: 14px;
+	/* font-size: .833vw; */
+	color: #F2EFE7;
+	text-decoration: none;
+
+	margin: 30px auto 0;
+}
+/* ----------------house------------------ */
+.house{
+	margin: 0 auto;
+	padding-top: 130px;
+	/* outline: 3px solid red; */
+}
+
+.house h1{
+	font-size: 24px;
+	/* font-size: 1.45vw; */
+	font-weight: bold;
+
+	display: block;
+	text-align: center;
+	
+	margin-bottom: 40px;
+	/* outline: 3px solid purple; */
+}
+
+.house_content{
+	width: 62.5vw;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 70px;
+
+	/* position: relative; */
+	/* outline: 3px solid orange; */
+}
+
+.house_content li{
+	width: 360px;
+	border-radius: 15px;
+	border: 1px solid #726565;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.house_content li:first-child{
+	/* transform: rotate(-15deg); */
+
+	margin-top: 30px;
+}
+
+.house_content li:nth-child(2){
+	z-index: 1;
+}
+
+.house_content li:last-child{
+	/* transform: rotate(15deg); */
+
+	margin-top: 30px;
+}
+
+.house_content .house-img1{
+	/* width: 360px; */
+	/* height: 360px; */
+	width: 21vw;
+	height: 18.75vw;
+	/* border-radius: 15px; */
+
+	background-image: url(../img/house/3L.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.house_content .house-img2{
+	/* width: 360px;
+	height: 360px; */
+	width: 21vw;
+	height: 18.75vw;
+	/* border-radius: 15px; */
+
+	background-image: url(../img/house/7L.jpg);
+	background-position: right;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.house_content .house-img3{
+	/* width: 360px;
+	height: 360px; */
+	width: 21vw;
+	height: 18.75vw;
+	/* border-radius: 15px; */
+
+	background-image: url(../img/house/1L.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.house_content h3{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+
+	margin-bottom: 10px;
+}
+
+
+.house_content p{
+	font-size: 14px;
+	text-align: center;
+
+	margin-bottom: 10px;
+	padding: 0 5px;
+}
+
+.house_content h4{
+	font-size: 18px;
+	text-align: center;
+
+	margin-bottom: 30px;
+}
+
+.house_content a{
+	display: block;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 15px;
+
+	background-color: #726565;
+	color: #F2EFE7;
+
+	text-decoration: none;
+	font-size: 14px;
+	/* font-size: .833vw; */
+	text-align: center;
+	margin: 0 auto 20px;
+}
+
+.house_btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.house_btn li{
+	margin:0 15px;
+	
+}
+
+.house_btn li:nth-child(1) a{
+	display: block;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+
+	background-color: #0097A7;
+	border-radius: 15px;
+		
+	color: #F2EFE7;
+
+	font-size: 16px;
+	/* font-size: 1.04vw; */
+	text-align: center;
+	text-decoration: none;
+	
+}
+/* -------------- */
+
+.house_btn li:nth-child(2) a{
+	display: block;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+
+	background-color: #726565;
+	border-radius: 15px;
+	
+	color: #F2EFE7;
+
+	font-size: 14px;
+	/* font-size: .833vw; */
+	text-align: center;
+	text-decoration: none;
+}
+/* ----------pet_supply------------------ */
+.pet_supply{
+	margin: 0 auto;
+	padding-top: 130px;
+	
+	/* outline: 3px solid gold; */
+}
+
+.pet_supply h1{
+	/* font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px; */
+
+	width: 62.5vw;
+	margin: 0 auto;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+
+	margin-bottom: 40px;
+
+	/* outline: 3px solid green; */
+}
+
+.pet_supply ul{
+	width: 62.5vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+	transition: all 1s;
+
+	/* outline: 3px solid blue; */
+}
+
+.pet_supply li:first-child{
+	/* margin-right: 3vw; */
+}
+
+/* .pet_supply .img1, .img2{
+	margin-bottom: 20px;
+} */
+/* ------------------flip card----------------------- */
+.flip-card{
+	margin-bottom: 20px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+  border-radius: 50%;
+}
+
+.flip-card img{
+	border-radius: 50%;
+	width: 300px;
+  height: 300px;
+}
+
+.flip-card-back img{
+  width: 300px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+  background-color: #bbb;
+  color: black;
+} */
+
+/* Style the back side */
+.flip-card-back {
+	transform: rotateY(180deg);
+  border-radius: 50%;
+}
+
+
+/* ---------------------------------------- */
+.pet_supply h2{
+	text-align: center;
+
+	margin-bottom: 10px;
+	/* outline: 3px solid lightblue; */
+}
+
+.pet_supply a{
+	display: block;
+	text-decoration: none;
+
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	
+	background-color:  #726565;
+	border-radius: 15px;
+
+	/* font-size: 0.72vw; */
+	font-size: 14px;
+	/* font-size: .833vw; */
+	color: #F2EFE7;
+	text-align: center;
+
+	margin: 0 auto;
+}
+/* ------------------discount-------------------- */
+.discount{
+	/* width: 62.5vw; */
+	/* margin: 0 auto; */
+	padding-top: 130px;
+	margin-bottom: 130px;
+
+	/* outline: 3px solid blue; */
+}
+
+.discount .rope2{
+	display: none;
+}
+
+.discount h1{
+	font-size: 24px;
+	/* font-size: 1.45vw; */
+	font-weight: bold;
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+.discount_card{
+	width: 62.5vw;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+
+	justify-content: center;
+
+	/* outline: 3px solid firebrick; */
+	margin-bottom: 60px ;
+
+}
+
+.discount-card4{
+	display: none;
+}
+
+.discount img{
+	/* height: 188px; */
+	width: 60vw;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+.discount li{
+	width: 15vw;
+	/* width: 22vw; */
+	border-radius: 15px;
+	border: 1px solid #726565;
+	background-color: #fff;
+	overflow: hidden;
+
+	text-align: center;
+	margin: 0 10px;
+}
+
+.discount li:nth-child(5){
+	position: absolute;
+	/* right: 60px; */
+	left: 780px;
+	top: 110px;
+}
+
+.discount .b{
+	font-size: 40px;
+	z-index: 1;
+}
+
+.discount .btn{
+
+	color: #726565;
+	/* opacity: .5; */
+	display: none;
+	padding: 0 5px;
+}
+
+.discount .b1{
+	/* position: absolute; */
+	left: 0;
+	top: 300px;
+}
+.discount .b2{
+	/* position: absolute; */
+	/* right: 0; */
+	left: 1153.19px;
+	top: 300px;
+}
+
+.discount .img1{
+	/* width: 300px;
+	height: 315px; */
+	width: 15.625vw;
+	height: 16.4vw;
+	/* border-radius: 15px; */
+	background-image: url(../img/discount/pet-salon2.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.discount .img2{
+	/* width: 300px;
+	height: 315px; */
+	width: 15.625vw;
+	height: 16.4vw;
+	background-image: url(../img/discount/discount-cat-supply.png);
+	background-position: center;
+	background-size: cover;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.discount .img3{
+	/* width: 300px;
+	height: 315px; */
+	width: 15.625vw;
+	height: 16.4vw;
+	/* border-radius: 15px; */
+	background-image: url(../img/discount/pet-hospital1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.discount .img4{
+	width: 35.625vw;
+  height: 28.4vw;
+	/* border-radius: 15px; */
+	background-image: url(../img/discount/pet-hospital3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.discount h2{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.discount p{
+	font-size: 14px;
+}
+
+.discount .discount_card span{
+	display: block;
+
+	font-size: 20px;
+	color: #EFA5A5;
+	font-weight: bold;
+
+	margin-bottom: 20px;
+}
+
+.discount .crossout{
+	text-decoration: line-through;
+}
+
+.discount .address{
+	margin-bottom: 10px;
+}
+
+.discount .date{
+	margin-bottom: 20px;
+}
+
+
+.discount a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+
+	background-color: #0097A7;
+	border-radius: 15px;
+	color: #F2EFE7;
+	font-size: 16px;
+	/* font-size: 1.04vw; */
+
+	margin: 0 auto;
+}
+/* --------------------hover------------------ */
+ .about a:hover, .house_content a:hover, .house_btn li:nth-child(2) a:hover, .pet_supply a:hover{
+	background-color: #EFA5A5;
+}
+
+.house_btn li:nth-child(1) a:hover, .discount a:hover{
+	background-color: #F7E8A9;
+	color: #726565;
+}
+/* -----------------------提示用modal----------------------------- */
+.mask{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(31, 31, 31, 0.5);
+	position: fixed;
+	z-index: 500;
+	padding: 15vh 0;
+}
+
+.board{
+	width: 25vw;
+	height: 70vh;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 20px;
+  box-sizing: border-box;
+	
+}
+
+.notice{
+	font-size: 16px;
+	/* margin-bottom: 30px; */
+	margin-bottom: 6vh;
+}
+
+.notice span{
+	font-weight: bold;
+	
+}
+
+.notice_pic{
+	width: 10vw;
+}
+
+.closeIcon{
+	cursor: pointer;
+}
+/* ---------------------768px--------------------- */
+@media screen and (max-width:768px){
+	/* ----------------------------- */
+	.banner{
+		height: 28.23vw;
+	}
+
+	.carousel_img{
+		height: 25vw;
+	}
+
+	.banner img{
+		width: 100vw;
+	}
+
+	.banner .carousel_btn{
+		height: 3.23vw;
+		line-height: 3.23vw;
+	}
+
+	.banner .carousel_btn li{
+		width: 1.5vw;
+		height: 1.5vw;
+		box-shadow: 2px 2px 2px #9999;
+	}
+	/* ----------------------------- */
+	.about h1, .house h1, .pet_supply h1{
+		margin-bottom: 30px;
+	}
+
+	.about a, .house_btn li:nth-child(2) a, .house_content a, .pet_supply a{
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 10px;
+	}
+	/* ----------------------------- */
+	.house, .pet_supply, .discount{
+		padding-top: 70px;
+	}
+
+	.house_content li{
+		width: 200px;
+	}
+	.house_content li:first-child {
+		left: -55px;
+	}
+	.house_content li:last-child{
+		right: -55px;
+	}
+	.house_content .house-img1, .house_content .house-img2, .house_content .house-img3{
+		width: 200px;
+		height: 200px;
+		background-size: 260%;
+	}
+
+	.house_content p{
+		margin: 0 10px 10px 10px;
+	}
+
+	.house_btn li:nth-child(1) a, .discount a{
+		width: 110px;
+    height: 55px;
+		line-height: 55px;
+		border-radius: 10px;
+	}
+/* ----------------------------- */
+	.img1 img, .img2 img{
+		width: 28.64vw;
+    height: 28.64vw;
+	}
+/* ----------------------------- */
+	.discount{
+		width: auto;
+		/* overflow: hidden; */
+	}
+
+	.discount .rope1{
+		width: 80vw;
+	}
+
+	.discount .rope2{
+		display: none;
+	}
+	/* ---------------------- */
+	.discount h2{
+		padding: 0 5px;
+	}
+
+	.discount li{
+		width: 22vw;
+	}
+
+	.discount li:last-child{
+		right: -300px;
+	}
+
+	.discount ul:nth-child(3){
+		margin-top: -4.4vw;
+		padding: 0 5px;
+	}
+
+	.discount .img1{
+		width: 22vw;
+		height: 16.4vw;
+		background-size: 200%;
+	}
+
+	.discount .img2{
+		width: 22vw;
+		height: 16.4vw;
+		background-size: 90%;
+	}
+
+	.discount .img3{
+		width: 22vw;
+		height: 16.4vw;
+		background-size: 130%;
+	}
+
+	.board{
+		width: 50vw;
+    height: 55vh;
+	}
+
+	.notice{
+		font-size: 20px;
+		margin-bottom: 9vh;
+	}
+
+	.notice_pic{
+		width: 15vw;
+	}
+}
+/* ---------------------428px--------------------- */
+@media screen and (max-width:428px){
+	.banner img{
+		width: 150vw;
+	}
+
+	.banner{
+		justify-content: center;
+		height: 45vw;
+
+		/* outline: 3px solid greenyellow; */
+	}
+
+	.carousel_img{
+		height: 40vw;
+	}
+
+	.banner .carousel_btn{
+		height: 5vw;
+		line-height: 5vw;
+	}
+
+	.about a, .house_btn li:nth-child(2) a, .house_content a, .pet_supply a{
+		width: 75px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 7px;
+	}
+/* ----------------------------- */
+	.house_content{
+		width: 75vw;
+	}
+
+	.house_content h3{
+		padding: 0 5px;
+	}
+
+	.house_content li:first-child{
+		margin-top: 0;
+		/* transform: rotate(-10deg); */
+	}
+
+	/* .house_content li:nth-child(2){ */
+		/* transform: rotate(10deg); */
+	/* } */
+
+	.house_content li:nth-child(3){
+		display: none;
+	}
+
+	.house_btn li:nth-child(1) a, .discount a{
+		/* width: 90px; */
+		height: 45px;
+		line-height: 45px;
+	}
+/* ----------------------------- */
+	.img1 img, .img2 img{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.flip-card{
+		width: 160px;
+		height: 170px;
+	}
+
+	.flip-card img{
+		width: 160px;
+		height: 160px;
+	}
+/* ----------------------------- */
+	.discount{
+    margin-bottom: 90px;
+		height: 680px;
+		position: relative;
+		overflow: hidden;
+
+			/* outline: 3px solid purple; */
+	}
+
+	.discount_rope{
+		display: flex;
+		justify-content: center;
+	}
+
+	.discount .rope1{
+		display: none;
+	}
+
+	.discount .rope2{
+		display: block;
+	}
+
+	.discount img{
+		width: 160vw;
+	}
+	/* ---------------------- */
+	.discount ul:nth-child(3){
+		width: 140vw;
+		display: initial;
+
+		/* outline: 3px solid blue; */
+	}
+
+
+	.discount .b1, .discount .b2{
+		display: block;
+		display: flex;
+		align-items: center;
+	}
+	
+	.discount li{
+		width: 34vw;
+	}
+
+	.discount .img1, .discount .img3{
+		width: 34vw;
+		height: 30vw;
+	}
+
+	.discount .address{
+		padding: 0 5px;
+	}
+
+	.discount .img2{
+		width: 34vw;
+		height: 30vw;
+		background-size: 105%;
+	}
+
+	.discount .b1{
+		float: left;
+		margin: 40vw auto 40vw;
+		border: none;
+		background-color: transparent;
+		width: auto;
+	}
+
+	.discount .b2{
+		float: right;
+		margin: 40vw auto 40vw;
+		border: none;
+		background-color: transparent;
+		width: auto;
+	}
+	
+	.discount-card1{
+		position: absolute;
+		left: -39.9vw;
+		top: -7vw;
+	}
+
+	.discount-card2{
+		position: absolute;
+		left: 2.347vw;
+		top: -7vw;
+	}
+
+	.discount-card3{
+		position: absolute;
+		left: 44.6vw;
+		top: -7vw;
+	}
+
+	.discount-card4{
+		display: block;
+		position: absolute;
+		left: 86.853vw;
+		top: -7vw;
+	}
+
+	
+	.discount a{
+		position: absolute;
+    left: 37.02vw;
+		top: 705px;
+
+	}	
+
+	.mask{
+		padding: 18vh 0;
+	}
+
+	.board{
+		width: 65vw;
+		height: 65vh;
+	}
+
+	.notice{
+		font-size: 20px;
+		margin-bottom: 5vh;
+	}
+
+	.notice_pic{
+		width: 20vw;
+	}
+}
+/* ==================== */
+
+@media screen and (max-width:360px){
+	.house_content .house-img1, .house_content .house-img2, .house_content .house-img3{
+		background-size: 160%;
+	}
+
+	.about, .house_content, .pet_supply h1, .pet_supply ul, .discount_card{
+		width: 80vw;
+	}
+
+	.flip-card{
+		width: 144px;
+		height: 140px;
+
+		/* outline: 1px solid red; */
+	}
+	
+	.flip-card-front, .flip-card-back{
+		width: 144px;
+	}
+
+	.flip-card img{
+		width: 135px;
+		height: 135px;
+	}
+
+	.mask{
+		padding: 13vh 0;
+	}
+
+	.board{
+		width: 65vw;
+		height: 75vh;
+	}
+
+	.notice{
+		font-size: 18px;
+	}
+
+
+}
