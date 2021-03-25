@@ -500,6 +500,7 @@ nav .icon li:hover, footer a:hover{
 	}
 /* ---------------------------------- */
 	footer p{
-		font-size: 0.729vw;
+		//font-size: 0.729vw;
+		font-size:12px;
 	}
 }
