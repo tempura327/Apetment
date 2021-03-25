@@ -330,7 +330,7 @@
 }
 
 .house .content p{
-	font-size: 1px;
+	font-size: 12px;
 	margin-bottom: 10px;
 	padding: 0 5px;
 }
@@ -429,7 +429,7 @@
 	}
 
 	.house .btn a, .house .content a{
-		/* width: 80px; */
+		font-size:12px;
 		width: 13.4vw;
 		/* height: 40px; */
 		height: 5.2vw;
