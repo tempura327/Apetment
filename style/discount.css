@@ -122,8 +122,8 @@
 }
 
 .discount .collaboration_content p{
-	font-size: 12px;
-	/*font-size: 0.729vw;*/
+	/*font-size: 12px;*/
+	font-size: 0.729vw;
 	margin-bottom: 1.0416vw;
 }
 
@@ -137,8 +137,8 @@
 
 .discount .collaboration_content span{
 	text-decoration: line-through;
-	font-size: 12px;
-	/*font-size: 0.729vw;*/
+	/*font-size: 12px;*/
+	font-size: 0.729vw;
 	/* margin-bottom: 20px; */
 	
 }
@@ -482,6 +482,11 @@
 
 	.discount .collaboration_content{
 		width: 25vw;
+	}
+	
+	
+	.discount .collaboration_content p, .discount .collaboration_content span, .discount .collaboration_content h3, .discount .collaboration_content h2{
+		font-size: 12px;
 	}
 
 	.discount .collaboration_discount li:first-child{
