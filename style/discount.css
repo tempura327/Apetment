@@ -122,8 +122,8 @@
 }
 
 .discount .collaboration_content p{
-	font-size: 14px;
-	font-size: 0.729vw;
+	font-size: 12px;
+	/*font-size: 0.729vw;*/
 	margin-bottom: 1.0416vw;
 }
 
@@ -137,8 +137,8 @@
 
 .discount .collaboration_content span{
 	text-decoration: line-through;
-	font-size: 14px;
-	font-size: 0.729vw;
+	font-size: 12px;
+	/*font-size: 0.729vw;*/
 	/* margin-bottom: 20px; */
 	
 }
