@@ -526,10 +526,15 @@
 	}
 
 	.pet_supply_content .subtitle, .pet_supply_discount p{
+		font-size: 12px;
 		padding: 0 5px;
 		margin: 10px 0;
 	}
-
+	
+	.discount .pet_supply_content span, .pet_supply_discount h2{
+		font-size: 12px;
+	}
+	
 	.pet_supply_discount a{
 		/* margin-bottom: 2.4vw; */
 		margin-bottom: 10px;
