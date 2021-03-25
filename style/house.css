@@ -429,7 +429,7 @@
 	}
 
 	.house .btn a, .house .content a{
-		font-size:12px;
+
 		width: 13.4vw;
 		/* height: 40px; */
 		height: 5.2vw;
@@ -597,6 +597,7 @@
 	}
 
 	.house .btn a, .house .content a{
+		
 		margin-bottom: 0;
 		/* width: 16vw;
 		height: 7vw;
