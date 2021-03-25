@@ -615,6 +615,10 @@
 	.rule h1{
 		margin-bottom: 30px;
 	}
+	
+	.house_img1-2, house_img2-2, house_img3-2, house_img4-2, house_img5-2, house_img9-2{
+		display: none;
+	}
 }
 /* ---------------------360px--------------------- */
 @media screen and (max-width:360px){
