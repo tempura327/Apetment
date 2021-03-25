@@ -640,8 +640,9 @@
 	}
 
 	.rule p{
+		font-size: 12px;
 		width: 80vw;
-    margin: 0 auto 130px;
+    		margin: 0 auto 130px;
 	}
 }
 
